@@ -1,0 +1,30 @@
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color-scheme: dark;
+  background: #0b0b0b;
+  color: #eaeaea;
+}
+
+a {
+  color: #8ab4f8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+button, select {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #111;
+  color: #eaeaea;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+table th, table td {
+  border-top: 1px solid #222;
+}
