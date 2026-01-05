@@ -110,7 +110,7 @@ export default function CustomersPage() {
         <div className="filters">
           <input
             className="input"
-            placeholder="Search by customer name, NIK, or city"
+            placeholder="Search by customer ID, name, or NIK"
             value={q}
             onChange={(e) => setQ(e.target.value)}
           />
